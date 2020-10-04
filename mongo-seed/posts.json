@@ -1,0 +1,18 @@
+[
+    {
+        "title" : "Post importé d'un JSON",
+        "content" : "Tu es un artiste",
+        "imageUrl" : "images/2020-09-24T14:50:34.744Z-IMG_0148.JPG",
+        "creator" : "5f6cb0456f928934923e0418",
+        "createdAt" : "2020-08-24T14:50:34.783Z",
+        "updatedAt" : "2020-08-24T14:50:34.783Z"
+    },
+    {
+        "title" : "Cet homme découvre Docker",
+        "content" : "Qu'est ce qu'on serait sans tout ces tutos Youtube quand même...",
+        "imageUrl" : "images/2020-09-25T15:38:48.234Z-Capri Sun Lead 1 SLY.jpg",
+        "creator" : "5f6cb0456f928934923e0418",
+        "createdAt" : "2020-08-25T15:38:48.277Z",
+        "updatedAt" : "2020-08-25T15:38:48.277Z"
+    }
+]

@@ -1,0 +1,27 @@
+version: '3.0'
+services:
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo-data:/data/db
+  mongo_seed:
+    build: mongo-seed/.
+    links:
+      - mongo
+
+  server:
+    image: api
+    ports:
+      - 8080:8080
+    links:
+      - mongo
+
+  client:
+    image: client
+    ports:
+      - 3000:3000
+volumes:
+  mongo-data:
+      driver: local
